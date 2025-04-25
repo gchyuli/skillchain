@@ -45,11 +45,11 @@ module.exports = {
   				DEFAULT: 'hsl(var(--secondary))',
   				foreground: 'hsl(var(--secondary-foreground))'
   			},
-        safelist: [
-          'data-[state=active]',
-          'data-[orientation=horizontal]',
-          'data-[orientation=vertical]'
-        ],        
+  			safelist: [
+  				'data-[state=active]',
+  				'data-[orientation=horizontal]',
+  				'data-[orientation=vertical]'
+  			],
   			muted: {
   				DEFAULT: 'hsl(var(--muted))',
   				foreground: 'hsl(var(--muted-foreground))'
